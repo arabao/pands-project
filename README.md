@@ -7,3 +7,4 @@ The dataset includes 50 samples each of the 3 identified Iris species that were 
 There are 5 columns in total and 150 rows. 4 of the five columns are numerical values of the length and width of the petal and sepals of the Iris and the fifth column contains the names of the specie type.
 reference: to import and debug pandas module: http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf.  https://stackoverflow.com/questions/63388135/vs-code-modulenotfounderror-no-module-named-pandas
 reference: to use the different pandas functions: https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html#min-tut-06-stats
+reference to write variable output to a text file: https://pandas.pydata.org/docs/user_guide/10min.html#getting-data-in-out
