@@ -9,3 +9,4 @@ reference: to import and debug pandas module: http://files.urpdfs.com/automate-t
 reference: to use the different pandas functions: https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html#min-tut-06-stats
 reference to write variable output to a text file: https://pandas.pydata.org/docs/user_guide/10min.html#getting-data-in-out
 reference for Irisdata set: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/. 
+reference for scatter plot: https://www.w3schools.com/python/pandas/pandas_plotting.asp
