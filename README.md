@@ -8,3 +8,4 @@ There are 5 columns in total and 150 rows. 4 of the five columns are numerical v
 reference: to import and debug pandas module: http://files.urpdfs.com/automate-the-boring-stuff-with-python.pdf.  https://stackoverflow.com/questions/63388135/vs-code-modulenotfounderror-no-module-named-pandas
 reference: to use the different pandas functions: https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html#min-tut-06-stats
 reference to write variable output to a text file: https://pandas.pydata.org/docs/user_guide/10min.html#getting-data-in-out
+reference for Irisdata set: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/. 
