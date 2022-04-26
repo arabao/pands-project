@@ -10,3 +10,6 @@ reference: to use the different pandas functions: https://pandas.pydata.org/docs
 reference to write variable output to a text file: https://pandas.pydata.org/docs/user_guide/10min.html#getting-data-in-out
 reference for Irisdata set: https://archive.ics.uci.edu/ml/machine-learning-databases/iris/. 
 reference for scatter plot: https://www.w3schools.com/python/pandas/pandas_plotting.asp
+The line plot shows the relationship between the Iris flower species
+reference for line plot: https://www.machinelearningplus.com/pandas/pandas-line-plot/
+Note: Adding # to the front of the code ensures no output from the code
