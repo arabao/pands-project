@@ -55,7 +55,7 @@ import numpy as np
 #Answer to Q3.3
 #Scatter plot of each variable pairs
 
-colors = ['red', 'blue', 'green']
+#colors = ['red', 'blue', 'green']
 species = ['virginica','versicolor','setosa']
 
 #for i in range(3):
@@ -69,8 +69,8 @@ species = ['virginica','versicolor','setosa']
         
 #comment: the above program outputs the two variables, sepal length and sepal
 #width into a scatter plot. The 3 Iris species are differented by the colors 
-#assigned. This is saved as a png file. The same program is run below with other 
-#variable pairs.
+#assigned. This is saved as a png file. The same program is run below with three
+# other variable pairs.
 
 #for i in range(3):
     #x = df[df['species'] == species[i]]
@@ -99,17 +99,27 @@ species = ['virginica','versicolor','setosa']
     
     
 #Answer to Q3.4
-#plt.title('Species variable (in cm)')
 
-#plt.plot(Irisdataset.sepal_length, Irisdataset.species, label='sepal_length')
-#plt.plot(Irisdataset.sepal_width, Irisdataset.species, label='sepal_width')
-#plt.plot(Irisdataset.petal_length, Irisdataset.species, label='petal_length')
-#plt.plot(Irisdataset.petal_width, Irisdataset.species, label='petal_width')
+#for i in range(3):
+    #x = df[df['species'] == species[i]]
+    #plt.bar(x['petal_width'], x['sepal_width'], label=species[i], width = 0.1, color = "pink")
+    #plt.show()
 
-#plt.legend()
+#comment: The above program displays a bar chart when run. The width of the
+#bars has been set to 0.1cm and color set to pink
 
-#plt.show()
+corr = df.corr()
+print(corr)
 
-
-
-
+#comment: The above program returns a table that represents the relationship
+#between two columns. A perfect correlation should fall close to -1.0 or 1.0.
+#From this dataset it appears that sepal length has a good correlation with 
+#petal length and width and thus we can predict the length and width
+#of the petal based on the sepal length.
+#However sepal width has a poor relationship with petal length and width, thus
+#it would be difficult to determine the size of the petal based on sepal width alone.
+#Petal length has a very good relationship with all the other variables except sepal
+#width, with which it has an acceptable correlation. This makes sense as
+#petal size can physically be used to predict sepal size, this is also true of 
+#petal length.
+#Each column makes a perfect relationship with itself with a score of 1.0.

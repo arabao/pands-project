@@ -13,3 +13,7 @@ reference for scatter plot: https://www.w3schools.com/python/pandas/pandas_plott
 The line plot shows the relationship between the Iris flower species
 reference for line plot: https://www.machinelearningplus.com/pandas/pandas-line-plot/
 Note: Adding # to the front of the code ensures no output from the code
+reference: https://www.w3schools.com/python/matplotlib_scatter.asp
+reference: https://www.w3schools.com/python/matplotlib_bars.asp
+reference: https://www.w3schools.com/python/pandas/default.asp
+reference: https://www.w3schools.com/python/pandas/pandas_correlations.asp
